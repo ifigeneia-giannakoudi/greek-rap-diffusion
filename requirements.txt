@@ -1,0 +1,10 @@
+pandas
+numpy
+pyarrow
+scipy
+networkx
+requests
+python-dotenv
+matplotlib
+pytest
+ipykernel

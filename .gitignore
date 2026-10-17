@@ -218,3 +218,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- project rules ---
+# secrets
+.env
+# data: never commit raw or processed data
+data/
+# outputs
+logs/
+mlruns/
