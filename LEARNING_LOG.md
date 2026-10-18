@@ -18,3 +18,8 @@ Two or three lines a day: what I learned, where I got stuck, how I solved it.
 - Collaborations with trap stars peaked in 2021 (4.9%), then pure hip-hop took over.
 - Without LEX, Bloody Hawk, Novel 729, Logos Timis: peak 10.2% in 2023, falling since; the big four's part of pure hip-hop rose from ~32% to ~61% (concentration).
 - 2026 dip = big names between albums (release cycles) + shrinking wider scene; possible recall bias in my artist list still to check.
+- Relabelled: Saske and Light -> in-between (trap-leaning); Mente Fuerte -> hip-hop.
+- New numbers: pure hip-hop 3.6% (2020) -> 12.4% (2023) -> 11.4% (2025) -> 4.4% (2026).
+  In 2020 ~half of hip-hop's streams came via trap-star collaborations, ~20% by 2023.
+  Big four's part of pure hip-hop: ~40% (2023) -> ~80% (2025).
+- Sensitivity: same four phases with and without Saske -> the story is robust to this label.

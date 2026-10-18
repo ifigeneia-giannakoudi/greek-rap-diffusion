@@ -17,10 +17,10 @@ HIPHOP = [
     "zinon", "above the hood", "negros tou moria", "dof twogee", "bong da city", "mani",
     "beats pliz", "sativa", "eleuthero pneuma", "koraki", "xplicit", "sadomas", "δπθ",
     "rationalistas", "taf lathos", "tsaki", "pithikos", "melow", "tse", "stolen mic",
-    "immune", "hgemona$", "saske", "mk",
+    "immune", "hgemona$", "mk", "mente fuerte"
 ]
 # Artists who switch between trap and hip-hop: to be labelled track by track later
-MIXED = ["rack", "hawk", "toquel", "mente fuerte"]
+MIXED = ["rack", "hawk", "toquel", "saske", "light"]
 
 
 def matches(keyword: str, name: str) -> bool:
@@ -67,9 +67,9 @@ HIPHOP_NAMES = {
     "Sadam", "Mateos Nps", "Dani Gambino", "Jaul", "Stixoima", "Ethismos", "Tzamal",
     "Zinon", "Above The Hood", "Negros Tou Moria", "Dof Twogee", "Mani", "Beats Pliz",
     "Sativa", "SativaMusic", "Eleuthero Pneuma", "Koraki", "Sadomas", "Tsaki",
-    "12os Pithikos", "Melow", "TSE", "Immune", "HGEMONA$", "Saske", "MK",
+    "12os Pithikos", "Melow", "TSE", "Immune", "HGEMONA$", "Mente Fuerte", "MK",
 }
-MIXED_NAMES = {"RACK", "Hawk", "TOQUEL", "Mente Fuerte"}
+MIXED_NAMES = {"RACK", "Hawk", "TOQUEL", "Saske", "Light"}
 
 
 def credits_any(names, group) -> bool:
