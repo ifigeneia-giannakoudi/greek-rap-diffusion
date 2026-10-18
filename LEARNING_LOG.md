@@ -10,3 +10,11 @@ Two or three lines a day: what I learned, where I got stuck, how I solved it.
 - Note: total streams grew a lot since 2020 (Spotify adoption in Greece), so compare shares, not raw streams.
 - Built a playlist of all 167 unique #1 songs. Found 7 songs with two Spotify IDs (single vs album release); fixed by matching on title + artists (entity resolution). Added an assert that weeks at #1 sum to 346.
 - Insight: rap already dominates #1 from 2020, so the diffusion story must be measured across the whole Top 200, not at #1.
+
+## Day 2 (cont.) · Sun Oct 18 · Reframing the research question
+- Trap already dominated in 2020, so the question became: did hip-hop-style rap rise inside a trap market?
+- Feasibility: 33 of 40 named hip-hop artists reach the Top 200 (7 never chart: the Top 200 only sees the mainstream).
+- Pure hip-hop (no trap-star collaborators) stream share: 6.1% (2020) -> ~15% (2023-25) -> 7.4% (2026 so far).
+- Collaborations with trap stars peaked in 2021 (4.9%), then pure hip-hop took over.
+- Without LEX, Bloody Hawk, Novel 729, Logos Timis: peak 10.2% in 2023, falling since; the big four's part of pure hip-hop rose from ~32% to ~61% (concentration).
+- 2026 dip = big names between albums (release cycles) + shrinking wider scene; possible recall bias in my artist list still to check.
