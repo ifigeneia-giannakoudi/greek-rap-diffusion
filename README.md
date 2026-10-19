@@ -1,5 +1,5 @@
 # greek-rap-diffusion
-Modelling how Greek rap invaded pop culture (2020–now)
+Modelling how Greek hip-hop invaded pop culture (2020–now)
 
 ## Side quest: every Greek #1 since COVID
 
