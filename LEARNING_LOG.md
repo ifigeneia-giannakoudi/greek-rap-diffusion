@@ -30,3 +30,5 @@ Two or three lines a day: what I learned, where I got stuck, how I solved it.
 - Added historic artists found in the charts (Iratus, Mikros Kleftis, Fi Vita Sigma, Lobo, Zoro&Buzz, Goin' Through, Stavento, Giorgos Orfanidis). No 90s founders chart since 2020.
 - Final: hip-hop 7.4% (2020) -> 15.7% (2023) -> 6.9% (2026); pure 3.4% -> 12.7% -> 3.8%.
 - Collaborations' part of hip-hop: >50% (2020) -> ~20% (2023) -> ~42% (2025). LEX's 2025 peak was mostly collaborations.
+- Built charts.parquet with a tested loader. Tests caught an unclear error for browser-duplicate files ("(1)"); fixed with a strict file-name pattern.
+- Data check found 2 weeks with 199 songs (2024-05-30 missing rank 149, 2026-07-16 missing rank 154); files complete, so documented as known exceptions and made the check stricter (exact rank sets).
