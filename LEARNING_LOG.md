@@ -23,3 +23,4 @@ Two or three lines a day: what I learned, where I got stuck, how I solved it.
   In 2020 ~half of hip-hop's streams came via trap-star collaborations, ~20% by 2023.
   Big four's part of pure hip-hop: ~40% (2023) -> ~80% (2025).
 - Sensitivity: same four phases with and without Saske -> the story is robust to this label.
+- Recall-bias check: listed all artists first charting since 2025 and not yet labelled; no hip-hop names among them, so the 2026 dip is not an artefact of my artist list.

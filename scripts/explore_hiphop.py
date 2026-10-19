@@ -163,3 +163,18 @@ pure_share = (100 * pure.groupby(["year", "artist_list"])["streams"].sum().unsta
 top10_pure = pure_share.sum(axis=1).sort_values(ascending=False).head(10).index
 print("\n=== Top 10 artists, pure hip-hop songs only (% of all chart streams) ===")
 print(pure_share.loc[top10_pure])
+
+# ---------------------------------------------------------------
+# Step 5: newcomers since 2025 that are in neither list (recall-bias check)
+# ---------------------------------------------------------------
+artist_stats = per_credit.groupby("artist_list").agg(
+    first_week=("week", "min"),          # first week the artist appears in the chart
+    streams=("streams", "sum"),          # streams of all songs crediting them
+    chart_weeks=("week", "nunique"),     # how many weeks they were in the chart
+)
+already_labelled = HIPHOP_NAMES | IN_BETWEEN
+newcomers = artist_stats[(artist_stats["first_week"] >= "2025-01-01")
+                         & ~artist_stats.index.isin(already_labelled)]
+
+print(f"\n=== {len(newcomers)} artists first charting since 2025 (not yet labelled) ===")
+print(newcomers.sort_values("streams", ascending=False).head(40).to_string())
