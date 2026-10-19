@@ -24,3 +24,9 @@ Two or three lines a day: what I learned, where I got stuck, how I solved it.
   Big four's part of pure hip-hop: ~40% (2023) -> ~80% (2025).
 - Sensitivity: same four phases with and without Saske -> the story is robust to this label.
 - Recall-bias check: listed all artists first charting since 2025 and not yet labelled; no hip-hop names among them, so the 2026 dip is not an artefact of my artist list.
+
+## Day 2 (cont.) · Mon Oct 19 · Final labels for the exploration
+- Fixed a real bug: IN_BETWEEN was defined twice and the copies drifted (Mente Fuerte in both sets). Now one set + an assert.
+- Added historic artists found in the charts (Iratus, Mikros Kleftis, Fi Vita Sigma, Lobo, Zoro&Buzz, Goin' Through, Stavento, Giorgos Orfanidis). No 90s founders chart since 2020.
+- Final: hip-hop 7.4% (2020) -> 15.7% (2023) -> 6.9% (2026); pure 3.4% -> 12.7% -> 3.8%.
+- Collaborations' part of hip-hop: >50% (2020) -> ~20% (2023) -> ~42% (2025). LEX's 2025 peak was mostly collaborations.
